@@ -1,6 +1,8 @@
 <template>
   <div>
+    <div class="d-flex justify-content-center align-items-center">
     <button @click="showModal">Open Modal</button>
+  </div>
     <Modal :isVisible="isModalVisible" @close="hideModal" />
   </div>
 </template>
